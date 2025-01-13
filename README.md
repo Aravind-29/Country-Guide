@@ -1,5 +1,5 @@
 
-# Country Guide App
+# Country Guide 
 
 The **Country Guide** is a web application that allows users to search and filter countries using the [REST Countries API](https://restcountries.com/). Users can view details about countries such as their capital, continent, population, currency, and common languages.
 
