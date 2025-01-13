@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: #3d64e6;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 45em;
+    margin: 2em auto;
+    padding: 1.5em;
+    border-radius: 0.62em;
+    box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+  }
+  
+  .top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+  .search-wrapper {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .search-wrapper input {
+    flex: 1;
+    padding: 0.7em;
+    border: 2px solid #3d64e6;
+    border-radius: 0.5em;
+    font-size: 1em;
+  }
+  
+  .search-wrapper button {
+    background-color: #3d64e6;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.7em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .filter-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  
+  .filter-wrapper select,
+  .filter-wrapper button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  .filter-wrapper button {
+    background-color: #3d64e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .result-box {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+  .country-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .country-card img {
+    width: 50%;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  .country-card h2 {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    color: #222a43;
+  }
+  
+  .data-wrapper {
+    margin-bottom: 0.5em;
+  }
+  
+  .data-wrapper h4 {
+    display: inline-block;
+    margin-right: 0.5em;
+    color: #3d64e6;
+  }
+  
+  .data-wrapper span {
+    color: #555;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .search-wrapper,
+    .filter-wrapper {
+      flex-direction: column;
+    }
+  
+    .search-wrapper input,
+    .filter-wrapper select {
+      width: 100%;
+    }
+  }
+
+.app-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #3d64e6;
+    margin-bottom: 1.5em;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .app-title {
+      font-size: 2em;
+      font-weight: 600;
+      
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .app-title {
+      font-size: 1.8em;
+    }
+  }
+    

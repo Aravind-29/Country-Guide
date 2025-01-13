@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Guide App</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-section">
+        <h1 class="app-title">Country Guide</h1>
+        <div class="search-wrapper">
+          <input type="text" id="country-inp" placeholder="Enter a country name here..." />
+          <button id="search-btn">Search</button>
+        </div>
+        <div class="filter-wrapper">
+          <select id="continent-filter">
+            <option value="">Select Continent</option>
+            <option value="Africa">Africa</option>
+            <option value="Antarctica">Antarctica</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="North America">North America</option>
+            <option value="Oceania">Oceania</option>
+            <option value="South America">South America</option>
+          </select>
+          <select id="letter-filter">
+            <option value="">Select Starting Letter</option>
+          </select>
+          <button id="filter-btn">Filter</button>
+        </div>
+      </div>
+      <div id="result" class="result-box"></div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
